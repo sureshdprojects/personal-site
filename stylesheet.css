@@ -1,0 +1,117 @@
+body{
+    background-color:#B2F9FC;
+    color:#1f1b1b;
+    margin: unset;
+    margin-bottom: 0px;
+}
+
+.header{
+    background-color: #7267CB;
+}
+
+.nav-bar{
+    width: 70%;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0 auto;
+    padding: 1.5% 0%;
+    font-size: 1.5rem;
+}
+
+#name{
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+    font-size: 3rem;
+}
+
+h2{
+    text-align: center;
+    font-weight: normal;
+}
+
+img{
+    width: 7.3%;
+}
+
+.sun{
+    position: fixed;  
+    left: 5%;
+    top: 10%;
+}
+
+.cloud{
+    position: fixed;
+    right: 5%;
+    top: 35%;
+}
+
+.name{
+    margin-top: 10%;
+}
+
+.dotted-line{
+    width: 10%;
+    margin: 4% auto 4% auto;
+    border-top: dotted;
+    border-width: 8px;
+    border-color: orange;
+}
+
+.skills{
+    width: 60%;
+    margin: 0 auto 0 auto;
+}
+
+.skillimage{
+    width: 10%;
+    border-radius: 100%;
+}
+
+.skill{
+    padding-top: 4%;
+    padding-bottom: 4%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.text-j,.text-v{
+    width: 80%;
+}
+
+@media (max-width: 675px) {
+    .skill{
+        padding-top: 4%;
+        padding-bottom: 4%;
+        display: flex;
+        justify-content: space-evenly;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .skillimage{
+        width: 50%;
+        border-radius: 100%;
+    }
+}
+
+.icon{
+   width: 30%;
+}
+
+.instagram,.gmail{
+    width: 100%;
+}
+
+.contact{
+    display: flex;
+    width: 10%;
+    margin: 0 auto;
+    justify-content: space-around;
+}
+
+.footer{
+    margin-top: 40px;
+    background-color: #FFE652;
+    height: 40px;
+    width: 100%;
+}
